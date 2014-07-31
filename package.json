@@ -1,0 +1,62 @@
+{
+  "name": "incubake",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:incubake/frontend.git"
+  },
+  "config": {
+    "less": {
+      "files": {
+        "www/assets/css/main.css": "app/styles/main.less"
+      },
+      "useSourceMaps": true
+    },
+    "template": {
+      "namespace": "",
+      "srcPath": "",
+      "dest": ""
+    },
+    "webroot": {
+      "port": "8000",
+      "base": "www"
+    },
+    "jshint": {
+      "path": ".jshintrc",
+      "files": ["Gruntfile.js", "app/src/**/*.js"]
+    }
+  },
+  "keywords": [
+    "incubator",
+    "bake",
+    "startup",
+    "automation"
+  ],
+  "author": "Chris Morris",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-simple-config": "~1.0.1"
+  },
+  "devDependencies": {
+    "connect": "^3.0.1",
+    "grunt-bower-install-simple": "^0.9.3",
+    "grunt-browserify": "^2.1.2",
+    "grunt-connect-proxy": "^0.1.10",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-jst": "^0.6.0",
+    "grunt-contrib-less": "^0.11.3",
+    "grunt-contrib-qunit": "^0.5.1",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-dev-update": "^0.5.10",
+    "grunt-npm-install": "^0.1.0",
+    "grunt-timer": "^0.5.2",
+    "load-grunt-tasks": "^0.6.0"
+  }
+}

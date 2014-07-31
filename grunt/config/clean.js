@@ -1,0 +1,1 @@
+module.exports = ["<%= pkg.config.webroot.base %>/*"];
