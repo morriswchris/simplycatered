@@ -1,10 +1,10 @@
 {
-  "name": "incubake",
-  "version": "0.0.1",
+  "name": "simplycatered",
+  "version": "1.0.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:incubake/frontend.git"
+    "url": "git@bitbucket.org:morriswchris/simplycatered.git"
   },
   "config": {
     "less": {
@@ -15,8 +15,8 @@
     },
     "template": {
       "namespace": "",
-      "srcPath": "",
-      "dest": ""
+      "srcPath": "app/template",
+      "dest": "www/src/js/template.js"
     },
     "webroot": {
       "port": "8000",
@@ -27,12 +27,7 @@
       "files": ["Gruntfile.js", "app/src/**/*.js"]
     }
   },
-  "keywords": [
-    "incubator",
-    "bake",
-    "startup",
-    "automation"
-  ],
+  "keywords": [],
   "author": "Chris Morris",
   "license": "BSD-2-Clause",
   "dependencies": {

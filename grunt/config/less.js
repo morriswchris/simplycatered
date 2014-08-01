@@ -1,8 +1,8 @@
 module.exports = {
 	dev: {
 		options: {
-			sourceMap: <%= pkg.config.less.useSourceMaps %>
+			sourceMap: "<%= pkg.config.less.useSourceMaps %>"
 		},
-		files: <%= pkg.config.less.files %>
+		files: "<%= pkg.config.less.files %>"
 	}
 };

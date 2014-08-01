@@ -1,5 +1,5 @@
 {
-  "name": "incubake",
+  "name": "simplycatered",
   "version": "0.0.0",
   "authors": [
     "Chris Morris <morris.w.chris@gmail.com>"
@@ -16,9 +16,7 @@
   "dependencies": {
     "jquery": "~2.1.0",
     "bootstrap": "~3.1.1",
-    "requirejs": "~2.1.14",
     "underscore": "~1.6.0",
-    "riotjs": "~1.0.1",
     "font-awesome": "~4.1.0"
   }
 }
