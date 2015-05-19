@@ -1,121 +1,80 @@
-body {
-  min-width: 300px;
-  overflow-x: scroll;
-  .container-fluid {
-    padding: 0;
+.container-fluid {
+  padding: 0;
+}
+
+.r-card {
+  font-family: 'Special Elite', cursive;
+  text-align: left;
+  background: #fff8ec;
+  color: @brown;
+  border-radius: 3px;
+  -webkit-box-shadow: 
+  1px 1px   0 rgba(0,   0,   0,   0.100), 
+  3px 3px   0 rgba(255, 255, 255, 1.0), 
+  4px 4px   0 rgba(0,   0,   0,   0.125), 
+  6px 6px   0 rgba(255, 255, 255, 1.0),  
+  7px 7px   0 rgba(0,   0,   0,   0.150), 
+  9px 9px   0 rgba(255, 255, 255, 1.0),  
+  10px 10px 0 rgba(0,   0,   0,   0.175);
+  -moz-box-shadow: 
+  1px 1px   0 rgba(0,   0,   0,   0.100), 
+  3px 3px   0 rgba(255, 255, 255, 1.0), 
+  4px 4px   0 rgba(0,   0,   0,   0.125), 
+  6px 6px   0 rgba(255, 255, 255, 1.0),  
+  7px 7px   0 rgba(0,   0,   0,   0.150), 
+  9px 9px   0 rgba(255, 255, 255, 1.0),  
+  10px 10px 0 rgba(0,   0,   0,   0.175);
+  box-shadow: 
+  1px 1px   0 rgba(0,   0,   0,   0.100), 
+  3px 3px   0 rgba(255, 255, 255, 1.0), 
+  4px 4px   0 rgba(0,   0,   0,   0.125), 
+  6px 6px   0 rgba(255, 255, 255, 1.0),  
+  7px 7px   0 rgba(0,   0,   0,   0.150), 
+  9px 9px   0 rgba(255, 255, 255, 1.0),  
+  10px 10px 0 rgba(0,   0,   0,   0.175);
+  h3 {
+    margin: 0;
+    padding: 20px 0px 5px 30px;
+    border-bottom: red 2px solid;
+  }
+
+  p {
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    height: 94%;
+    background: transparent;
+    line-height: 20px;
+  }
+
+  .paper {
+    height: 50%;
+    min-height: 200px;
+    font-size: 12px;
+    margin: 0 auto;
+    position: relative;
+    color: #444;
+    line-height: 20px;
+    border: 1px solid #d2d2d2;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff8ec 8%) 0 4px;
+    background: -moz-linear-gradient(top, #d9eaf3 0%, #fff8ec 8%) 0 4px;
+    background: -ms-linear-gradient(top, #d9eaf3 0%, #fff8ec 8%) 0 4px;
+    background: -o-linear-gradient(top, #d9eaf3 0%, #fff8ec 8%) 0 4px;
+    background: linear-gradient(top, #d9eaf3 0%, #fff8ec 8%) 0 4px;
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    -ms-background-size: 100% 20px;
+    -o-background-size: 100% 20px;
+    background-size: 100% 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
   }
 }
 
-#nav-header {
-  background-color: #37302d;
-  opacity:.7;
-  border: 0;
-  border-radius: 0;
-  #nav-items {
-    border: 0;
-    li a {
-      color: white;
-      font-size: 18px;
-      margin-right: 25px;
-      text-decoration: none;
-
-      &:hover {
-        color: #f9a8a4;
-      }
-    }  
-  }
-
-  .navbar-brand {
-    padding: 2px;
-  }
-}
-
-#brownbox {
-  .description {
-    .make-xs-column(12);
-    .make-sm-column(4);
-    .make-md-column(4);
-    .make-lg-column(4);
-    color: white;    
-    background-color: #37302d;
-    width: 100%;
-  }
-}
-
-
-
-
-body {
-      background: url(/assets/img/PinkBackground.png) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      box-shadow: inset 0 0 100px rgba(0, 0, 0, 1);
-      min-height: 380px;
-      text-align: inherit;
-    }
-
-    .img-copyright {
-      bottom: 5px;
-      position: fixed;
-      left: 80%;
-      width: 20%;
-      font-size: 8px;
-      margin-right: 10px;
-      opacity: 0.3
-    }
-
-    .logo {
-      height: 200px;
-    }
-
-    html, .lobster-font {
-      font-family: 'Lobster', cursive;
-    }
-
-    @media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 568px) 
-    and (orientation : portrait) { 
-      zoom: 1;
-      width: device-width;
-    }
-#brownbox{
-}
-#header{
-  background-color: #37302d;
-  height:50px;
-  width:100%;
-  position: fixed;
-  top:0px;
-  opacity:.7;
-}
-#HomeLogo{
-  width: 57px;
-  margin: 2px 0px 0px 25px;
-}
-#mainlogo{
-  width: 450px;
-}
-.center {
-    margin: auto;
-    width: 70%;
-}
-.mainlogo {
-    text-align: center;
-}
-#Nav{
-  float:right;
-  margin-top:12px;
-}
-.nav-link {
-  color: white;
-  font-size: 18px;
-  margin-right: 25px;
-  text-decoration: none;
-}
-.nav-link:hover{
-  color: #f9a8a4;
-  text-decoration: none;
-}
